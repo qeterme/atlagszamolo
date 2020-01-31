@@ -1,5 +1,6 @@
 module.exports = {
   pwa: {
-    name: 'Átlag számoló'
+    name: 'Átlag Számoló',
+    themeColor: '#191970'
   }
 }

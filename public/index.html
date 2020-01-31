@@ -5,13 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>Átlag számoló</title>
+    <title>Átlag Számoló</title>
+    <meta name="title" content="Átlag Számoló">
+    <meta name="description" content="Gyorsan és könnyen kiszámolhatod az egyetemi átlagjaidat a kredited és a jegyeid segítségével!">
+    <meta name="keywords" content="szegedi tudományegyetem, átlag, átlagszámoló, átlag számoló, eötvös lóránd tudományegyetem, ANNYE, ATE, ATF, AVKF, BGE, BHF, BJHF, BKTF, BME, BTA, CORVINUS, DE, DRHE, DUE, EDUTUS, EGHF, EHE, EJF, EKE, ELTE, ESZHF, GDF, GFF, IBS, KE, KEE, KJE, KRE, LFZE, ME, METU, MILTON, MKE, MOME, MTE, NJE, NKE, NYE, OE, OR-ZSE, PE, PHF, PPKE, PRTA, PTE, PTF, SE, SOE, SRTA, SSTF, SSZHF, SZAGKHF, SZE, SZFE, SZIE, SZPA, SZTE, TE, TKBF, TPF, VHF, WJLF, WSUF, szote, egyetem, egyetemi">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Hungarian">
+    <meta name="author" content="Peter Berkecz">
+    <script src="https://kit.fontawesome.com/d607c1f622.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <noscript>
-      <strong>Sajnos az Átlag számoló nem működik a JavaScript nélkül. Kérlek engedélyezd, hogy az oldalt rendesen működhessen.</strong>
+      <strong>Sajnos az Átlag Számoló nem működik a JavaScript nélkül. Kérlek engedélyezd, hogy az oldalt rendesen működhessen.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDITVXKg01SElqT4y-VZ2u8jBYQSx1KHT0",
+        authDomain: "atlagszamolo.firebaseapp.com",
+        databaseURL: "https://atlagszamolo.firebaseio.com",
+        projectId: "atlagszamolo",
+        storageBucket: "atlagszamolo.appspot.com",
+        messagingSenderId: "339868619913",
+        appId: "1:339868619913:web:cb6664a287fdd5f4796258",
+        measurementId: "G-TMJK6GF9QV"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

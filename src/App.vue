@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <Calculator msg="Átlag számoló"/>
+    <Calculator msg="Átlag Számoló"/>
   </div>
 </template>
 
